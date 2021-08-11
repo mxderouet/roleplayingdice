@@ -1,0 +1,32 @@
+{
+  "name": "roleplayingdice",
+  "version": "1.0.0",
+  "description": "RPD",
+  "main": "webpack.config.js",
+  "scripts": {
+    "serve": "webpack serve",
+    "build": "webpack",
+    "test": "npm dev"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mxderouet/roleplayingdice.git"
+  },
+  "author": "mxderouet",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mxderouet/roleplayingdice/issues"
+  },
+  "homepage": "https://github.com/mxderouet/roleplayingdice#readme",
+  "dependencies": {
+    "express": "4.17.1",
+    "lodash": "4.17.21"
+  },
+  "devDependencies": {
+    "@types/lodash": "4.14.172",
+    "ts-loader": "9.2.5",
+    "typescript": "4.3.5",
+    "webpack-cli": "4.7.2",
+    "webpack-dev-server": "3.11.2"
+  }
+}
