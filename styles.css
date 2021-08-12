@@ -26,9 +26,10 @@ h1 {
 }
 
 #dice-choice, #roll-dice {
+    font-size: 1em;
     font-weight: bolder;
-    background-color: #e95b27;
-    color: #634945;
+    background-color: #657279;
+    color: white;
     border-color: #634945;
     padding: 1em;
     border-radius: 5px;
