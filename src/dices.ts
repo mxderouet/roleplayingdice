@@ -16,6 +16,6 @@ export const dice = (dice: number) => {
     const rollResult = random(1, dice)
     const rollDiv = document.getElementById('roll-result')
     if (rollDiv) {
-        rollDiv.innerHTML = rollResult.toString() 
+        rollDiv.innerHTML = rollResult.toString()
     }
 }

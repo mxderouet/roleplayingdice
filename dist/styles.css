@@ -1,0 +1,40 @@
+body, #dice-choice, #roll-result, #roll-dice {
+    max-height: 100%;
+    font-family: 'Antic Slab', serif;
+    background-color: #f3dc9f;
+    color: #634945;
+}
+
+body {
+    margin-top: 5em;
+    text-align: center;
+}
+
+
+h1 {
+    font-family: 'MedievalSharp', cursive;
+    font-size: 3em;
+    margin-bottom: 1em;
+}
+
+#dice-choice, #roll-result, #roll-dice {
+    margin-top: 1em;
+}
+
+#roll-result {
+    font-family: 'MedievalSharp', cursive;
+    font-size: 4em;
+}
+
+#dice-choice, #roll-dice {
+    font-size: 1em;
+    font-weight: bolder;
+    background-color: #657279;
+    color: white;
+    border-color: #634945;
+    padding: 1em;
+    border-radius: 5px;
+}
+
+
+

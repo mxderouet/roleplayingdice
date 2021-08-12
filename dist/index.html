@@ -8,9 +8,14 @@
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <title>Role Playing Dice</title>
-        <meta name="description" content="">
+        <link rel="icon" type="img/png" href="https://img.icons8.com/color/48/000000/dice.png"/>
+        <script src="https://kit.fontawesome.com/570318d29a.js" crossorigin="anonymous"></script>
+        <meta name="Role playing dices" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Antic+Slab&family=MedievalSharp&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="./styles.css">
         <script src="bundle.js" async defer></script>
     </head>
     <body>
@@ -18,14 +23,14 @@
             <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
         <h1>
-            Role Playing Dice
+            <i class="fas fa-feather-alt"></i> Role Playing Dice <i class="fas fa-dice-d20"></i>
         </h1>
         <div id="select-dice">
             <h2>
                 Select your dice:
             </h2>
             <select name="dices" id="dice-choice">
-                <option value="">--Please choose a dice--</option>
+                <option value="">Please choose a dice</option>
                 <option value="4">4</option>
                 <option value="6">6</option>
                 <option value="8">8</option>
@@ -37,13 +42,14 @@
             <br>
             <br>
         </div>
-        <div id="roll-result">
-        </div>
         <br>
         <button id="roll-dice">
-            Roll Dice
+            <i class="fas fa-dice"></i> Roll Dice <i class="fas fa-dice"></i> 
         </button>
-
+        <br>
+        <br>
+        <div id="roll-result">
+        </div>
         <script src="" async defer></script>
     </body>
 </html>
